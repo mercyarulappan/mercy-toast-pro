@@ -1,0 +1,68 @@
+.toast.gradient {
+    min-width: 280px;
+
+    padding: 16px 20px;
+
+    border-radius: 12px;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.toast.gradient button {
+    border: none;
+
+    background: transparent;
+
+    color: white;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    padding: 0;
+}
+
+
+/* Success */
+
+.toast.gradient.success {
+    background: linear-gradient(135deg,
+            #16a34a,
+            #22c55e);
+}
+
+
+/* Error */
+
+.toast.gradient.error {
+    background: linear-gradient(135deg,
+            #dc2626,
+            #ef4444);
+}
+
+
+/* Warning */
+
+.toast.gradient.warning {
+    background: linear-gradient(135deg,
+            #d97706,
+            #f59e0b);
+}
+
+
+/* Info */
+
+.toast.gradient.info {
+    background: linear-gradient(135deg,
+            #2563eb,
+            #3b82f6);
+}

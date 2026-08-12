@@ -1,0 +1,84 @@
+.toast.neon {
+    min-width: 280px;
+
+    padding: 16px 20px;
+
+    border-radius: 8px;
+
+    background: #090909;
+
+    color: white;
+
+    border: 1px solid;
+
+    box-shadow:
+        0 0 5px currentColor,
+        0 0 15px currentColor;
+
+    font-family: monospace;
+}
+
+
+/* =========================
+   Close Button
+========================= */
+
+.toast.neon button {
+    border: none;
+
+    background: transparent;
+
+    color: inherit;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   Success
+========================= */
+
+.toast.neon.success {
+    color: #00ff88;
+
+    border-color: #00ff88;
+}
+
+
+.toast.neon .toast-icon {
+    color: inherit;
+}
+
+/* =========================
+   Error
+========================= */
+
+.toast.neon.error {
+    color: #ff3366;
+
+    border-color: #ff3366;
+}
+
+
+/* =========================
+   Warning
+========================= */
+
+.toast.neon.warning {
+    color: #ffaa00;
+
+    border-color: #ffaa00;
+}
+
+
+/* =========================
+   Info
+========================= */
+
+.toast.neon.info {
+    color: #00aaff;
+
+    border-color: #00aaff;
+}

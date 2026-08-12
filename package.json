@@ -1,0 +1,53 @@
+{
+  "name": "mercy-toast-pro",
+  "version": "0.1.0",
+  "description": "A customizable React toast notification library with multiple UI variants.",
+  "type": "module",
+  "license": "MIT",
+  "module": "./dist/mercy-toast-pro.js",
+  "exports": {
+    ".": {
+      "import": "./dist/mercy-toast-pro.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+
+  "author": {
+  "name": "Mercy Arulappan"
+},
+"keywords": [
+  "react",
+  "toast",
+  "notification",
+  "react-toast",
+  "toast-notification",
+  "react-component",
+  "ui"
+],
+
+"repository": {
+  "type": "git",
+  "url": "https://github.com/mercyarulappan/mercy-toast-pro.git"
+},
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.5",
+    "oxlint": "^1.75.0",
+    "vite": "^8.2.1",
+    "vite-plugin-css-injected-by-js": "^5.0.2"
+  }
+}

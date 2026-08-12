@@ -1,0 +1,104 @@
+.toast.card {
+    width: 320px;
+
+    padding: 18px;
+
+    border-radius: 14px;
+
+    background: white;
+
+    color: #222;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.15);
+
+    display: block;
+}
+
+
+/* =========================
+   Header
+========================= */
+
+.card-header {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   Title
+========================= */
+
+.card-title {
+    font-size: 14px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+}
+
+.card-title-wrapper {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+}
+
+/* =========================
+   Close Button
+========================= */
+
+.card-close {
+    border: none;
+
+    background: transparent;
+
+    color: #555;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    padding: 0;
+}
+
+
+/* =========================
+   Message
+========================= */
+
+.card-message {
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    color: #555;
+}
+
+
+/* =========================
+   Type Indicators
+========================= */
+
+.toast.card.success {
+    border-left: 5px solid #22c55e;
+}
+
+.toast.card.error {
+    border-left: 5px solid #ef4444;
+}
+
+.toast.card.warning {
+    border-left: 5px solid #f59e0b;
+}
+
+.toast.card.info {
+    border-left: 5px solid #3b82f6;
+}

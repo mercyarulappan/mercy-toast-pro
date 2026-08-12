@@ -1,0 +1,69 @@
+.toast.glass {
+    min-width: 280px;
+
+    padding: 16px 20px;
+
+    border-radius: 16px;
+
+    background: rgba(68, 70, 81, 0.868);
+
+
+    border: 3px solid rgba(255, 255, 255, 0.3);
+
+    color: white;
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Close button */
+
+.toast.glass button {
+    border: none;
+
+    background: transparent;
+
+    color: white;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   Type Colors
+========================= */
+
+.toast.glass.success {
+    border-color: rgba(34, 197, 94, 0.6);
+}
+
+.toast.glass.error {
+    border-color: rgba(239, 68, 68, 0.6);
+}
+
+.toast.glass.warning {
+    border-color: rgba(245, 158, 11, 0.6);
+}
+
+.toast.glass.info {
+    border-color: rgba(59, 130, 246, 0.6);
+}
+
+
+.toast.glass .toast-icon.success {
+    color: #22c55e;
+}
+
+.toast.glass .toast-icon.error {
+    color: #ef4444;
+}
+
+.toast.glass .toast-icon.warning {
+    color: #f59e0b;
+}
+
+.toast.glass .toast-icon.info {
+    color: #3b82f6;
+}
