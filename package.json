@@ -14,6 +14,7 @@
     "dist",
     "README.md"
   ],
+  "homepage": "https://github.com/mercyarulappan/mercy-toast-pro",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
